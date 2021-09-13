@@ -7,7 +7,7 @@ public class SingleConnectionBanco {
 	
 	private static String url="jdbc:postgresql://localhost:5432/aula_jpa?autoReconnect=true";
 	private static String user= "postgres";
-	private static String password= "Kill4r3e2w1q#";
+	private static String password= "";
 	private static Connection connection = null;
 	
 	static {
